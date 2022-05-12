@@ -19,7 +19,6 @@
   --bg-light:  hsla(180, 14%, 97%);
 
 
-
   font-size: 62.5%; /* */
 
   --nav-height: 7.2rem;
@@ -43,6 +42,13 @@ body {
   overflow: overlay;
 
   background-color: var(--bg-light);
+}
+
+.dark{
+  filter: invert(1) hue-rotate(180deg);
+}
+.dark img{
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .wrapper{

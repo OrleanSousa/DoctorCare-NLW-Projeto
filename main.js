@@ -42,12 +42,6 @@ function activateMenuAtCurrentSection(section) {
 
 
 
-
-
-
-
-
-
 function showNavOnScroll(){
   if(scrollY > 0){
     navigation.classList.add('scroll')
@@ -71,7 +65,9 @@ function openMenu(){
 function closeMenu(){
   document.body.classList.remove('menu-expanded')
 }
-
+function darkMode(){
+  document.documentElement.classList.toggle('dark')
+}
 ScrollReveal({
   origin: 'top',
   distance: '30px',
